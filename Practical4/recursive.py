@@ -1,4 +1,4 @@
-#Calculate this recursive sequence and computes and displays the first five values.
+#Function: Calculate this recursive sequence and computes and displays the first five values.
 i=1
 j=4
 #The first value is 4.
