@@ -1,4 +1,4 @@
-#Calculate the number of days required to exceed 0.9 density.
+#Function: Calculate the number of days required to exceed 0.9 density.
 i=0
 j=0.05
 #The density is 90 at the beginning.
