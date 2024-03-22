@@ -6,14 +6,25 @@ cities=uk_cities+china_cities
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif']=['SimSun'] #Set the font
-cities=["Edinburgh", "Glasgow", "Stirling", "London", "Haining", "Hangzhou", "Shanghai", "Beijing"] #input x_data
-population=[0.56,0.62,0.04,9.7,0.58,8.4,29.9,22.2] #input y_data
+cities=["Edinburgh", "Glasgow", "Stirling", "London"] #input x_data
+population=[0.56,0.62,0.04,9.7] #input y_data
 std_err = [1, 1, 1, 1, 1]
 width = 30 #The maximum value of y-axis
 plt.figure()
 plt.bar(x=cities, height=population, width=0.7, color='cadetblue',ec='black') #set the style of the bar graph
 plt.xlabel(cities)
 plt.ylabel("population")
-plt.title("Cities in the UK and China in 2024 are of varying populations") #Make a title
+plt.title("Cities in the UK in 2024 are of varying populations") #Make a title
 plt.show() #show the graph
 plt.clf() 
+plt.rcParams['font.sans-serif']=['SimSun'] #Set the font
+cities=["Haining", "Hangzhou", "Shanghai", "Beijing"] #input x_data
+population=[0.58,8.4,29.9,22.2] #input y_data
+std_err = [1, 1, 1, 1, 1]
+width = 30 #The maximum value of y-axis
+plt.bar(x=cities, height=population, width=0.7, color='cadetblue',ec='black') #set the style of the bar graph
+plt.xlabel(cities)
+plt.ylabel("population")
+plt.title("Cities in the China in 2024 are of varying populations") #Make a title
+plt.show() #show the graph
+plt.clf()
