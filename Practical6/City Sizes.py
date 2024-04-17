@@ -1,5 +1,7 @@
-uk_cities=[0.04,0.56,0.62,9.7] #Make a uk_cities list
+uk_cities=[0.56,0.62,0.04,9.7] #Make a uk_cities list
 china_cities=[0.58,8.4,22.2,29.9] #Make a china_cities list
+uk_cities.sort() #Sort the UK list
+china_cities.sort() #Sort the China list
 print(uk_cities) #print the uk_cities list
 print(china_cities) #print the china_cities list
 cities=uk_cities+china_cities
