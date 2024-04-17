@@ -1,5 +1,5 @@
 #Creating a dictionary
-my_dict = {'Sleeping':'8', 'Classes':'6', 'Studying':'3.5', 'TV':'2', 'Music':'1'}
+my_dict = {'Sleeping':'8', 'Classes':'6', 'Studying':'8', 'TV':'2', 'Music':'1'}
 #Accessing dictionary values
 print(my_dict['Sleeping']) #output: value1
 print(my_dict['Classes']) #output: value2
