@@ -1,0 +1,5 @@
+This practical was really difficult for me as I had met many difficulties and errors when running the code
+When I tried to finish the SIR_vaccination task, it was hard to understand the guidance and I have no idea about how I am going to write the code.
+Another difficulty for me was that as a beginner, it is difficult for me to apply what I have learned in class to practice. I do not know when and how to use it.
+Maybe a more detailed guidance like practical 3 or 4 is more suitable for me.
+I have learnt something important about how to use np.random.choice. And I have learnt how to use code to make the images look better.
