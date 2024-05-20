@@ -1,0 +1,4 @@
+For human and mouse, the edit distance is 47, the score is 3137.0, and the identity is 92.53968253968254
+For human and rat, the edit distance is 99, the score is 3107.0, and the identity is: 91.74603174603175
+For mouse and rat, the edit distance is 119, the score is 3261.0, and the identity is: 96.82539682539682
+In summary, the human SLC6A4 gene sequence is more like	the	mouse, so mouse would be a better model organism for studying variation in the SLC6A4 gene in humans.
